@@ -554,4 +554,4 @@
 	icon_state = "lily_crown"
 	dynamic_hair_suffix = ""
 	attack_verb = list("crowned")
-	
+
