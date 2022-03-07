@@ -168,12 +168,12 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	id = /obj/item/card/id/dogtag/legcenturion
 	gloves = null
 	shoes = /obj/item/clothing/shoes/roman
-	suit_store = /obj/item/gun/ballistic/revolver/colt6520
+	suit_store = /obj/item/gun/ballistic/automatic/pistol/n99
 	r_pocket = /obj/item/storage/bag/money/small/legofficers
 	l_pocket = /obj/item/flashlight/lantern
 	l_hand = /obj/item/melee/onehanded/machete/spatha
 	backpack_contents = list(
-		/obj/item/ammo_box/l10mm = 2,
+		/obj/item/ammo_box/magazine/m10mm_adv/simple = 2,
 		/obj/item/reagent_containers/pill/patch/bitterdrink = 1,
 		)
 
@@ -258,6 +258,7 @@ Weapons		Lever shotgun, Grease gun, Repeater carbines, Revolvers, simple guns al
 	suit_store = /obj/item/gun/ballistic/automatic/m1919
 	backpack_contents = list(
 		/obj/item/melee/onehanded/machete/spatha = 1,
+		/obj/item/melee/powerfist/f13/goliath = 1,
 		/obj/item/ammo_box/magazine/mm762 = 1,
 		)
 
@@ -463,6 +464,8 @@ commented out pending rework*/
 	supervisors = "the Prime/Veteran Decanus and the Centurion"
 	display_order = JOB_DISPLAY_ORDER_DECANREC
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13decanrec
+	access = list(ACCESS_LEGION, ACCESS_LEGION_COMMAND)
+	minimal_access = list(ACCESS_LEGION,  ACCESS_LEGION_COMMAND)
 	exp_requirements = 600
 
 	loadout_options = list(
@@ -541,6 +544,8 @@ commented out pending rework*/
 	supervisors = "the Veteran Decanus and Centurion"
 	display_order = JOB_DISPLAY_ORDER_VEXILLARIUS
 	outfit = /datum/outfit/job/CaesarsLegion/Legionnaire/f13vexillarius
+	access = list(ACCESS_LEGION, ACCESS_LEGION_COMMAND)
+	minimal_access = list(ACCESS_LEGION,  ACCESS_LEGION_COMMAND)
 	exp_requirements = 720
 
 	loadout_options = list(
@@ -697,6 +702,7 @@ commented out pending rework*/
 		/datum/outfit/loadout/vetshielder,	// .44 DA Revolver, Shield, Gladius, Armor plate
 		/datum/outfit/loadout/vetrifle,		// Trail gun, Gladius
 		/datum/outfit/loadout/vetberserker,	// Lever shotgun, Fireaxe, Bola
+		/datum/outfit/loadout/vetsmg, // Carl Gustaf
 		)
 	matchmaking_allowed = list(
 		/datum/matchmaking_pref/friend = list(
@@ -762,7 +768,14 @@ commented out pending rework*/
 		/obj/item/restraints/legcuffs/bola = 2,
 		)
 
-
+/datum/outfit/loadout/vetsmg
+	name = "Flanker"
+	suit_store = /obj/item/gun/ballistic/automatic/smg/cg45
+	backpack_contents = list(
+		/obj/item/ammo_box/magazine/cg45 = 2,
+		/obj/item/gun/ballistic/revolver/colt357 = 1,
+		/obj/item/ammo_box/a357 = 1,
+		)
 // PRIME
 
 /datum/job/CaesarsLegion/Legionnaire/f13legionary
@@ -996,7 +1009,6 @@ commented out pending rework*/
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/lever_action)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/grease_gun)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/brush)
-	H.mind.teach_crafting_recipe(/datum/crafting_recipe/colt6520)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/huntingshotgun)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/legionlance)
 	H.mind.teach_crafting_recipe(/datum/crafting_recipe/concussion)
