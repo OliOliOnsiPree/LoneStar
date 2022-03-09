@@ -1249,6 +1249,10 @@
 	dir = 10
 	},
 /area/f13/village)
+"azm" = (
+/obj/structure/chair/stool/retro,
+/turf/open/indestructible/ground/outside/dirt,
+/area/f13/wasteland)
 "azz" = (
 /obj/item/ammo_casing/a556,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -2834,7 +2838,6 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/legion)
 "bix" = (
-/obj/effect/spawner/bundle/f13/greasegun,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/bundle/f13/greasegun,
 /obj/structure/rack/shelf_metal,
@@ -12564,9 +12567,7 @@
 	pixel_x = -6;
 	pixel_y = -6
 	},
-/turf/open/indestructible/ground/outside/desert{
-	icon_state = "wasteland33"
-	},
+/turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "fmW" = (
 /obj/structure/car/rubbish1,
@@ -20842,6 +20843,19 @@
 	icon_state = "floordirty"
 	},
 /area/f13/followers)
+"iyP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/obj/item/paper_bin,
+/obj/item/pen,
+/obj/item/folder/yellow{
+	pixel_x = 4
+	},
+/obj/item/folder/yellow{
+	pixel_x = 4
+	},
+/turf/open/floor/f13/wood,
+/area/f13/raiders)
 "izb" = (
 /obj/effect/turf_decal/vg_decals/numbers/one,
 /obj/structure/car/rubbish1,
@@ -48284,6 +48298,12 @@
 /obj/item/pickaxe,
 /turf/open/floor/f13/wood,
 /area/f13/building)
+"ukD" = (
+/obj/vehicle/ridden/wheelchair{
+	name = "Hawtrod"
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/wasteland)
 "ukQ" = (
 /turf/closed/mineral/random/high_chance,
 /area/f13/wasteland)
@@ -53021,6 +53041,10 @@
 "wno" = (
 /obj/structure/girder/reinforced,
 /turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
+"wnt" = (
+/obj/structure/destructible/tribal_torch/lit,
+/turf/open/indestructible/ground/outside/desert,
 /area/f13/caves)
 "wnA" = (
 /obj/structure/barricade/wooden,
@@ -65238,10 +65262,10 @@ gcK
 gcK
 ktB
 gcK
-gcK
-gcK
-gcK
-gcK
+ktB
+ktB
+ktB
+ktB
 fyf
 fyf
 fyf
@@ -65495,10 +65519,10 @@ gcK
 gcK
 gcK
 gcK
-gcK
-gcK
-gcK
-gcK
+ktB
+oYb
+oYb
+ktB
 oWC
 wOK
 wOK
@@ -65753,8 +65777,8 @@ gcK
 ktB
 ktB
 gcK
-ktB
-ktB
+ggK
+ggK
 gcK
 gcK
 ktB
@@ -66010,8 +66034,8 @@ gcK
 gcK
 ktB
 gcK
-gcK
-fyf
+ggK
+ggK
 ktB
 gcK
 eKM
@@ -66266,10 +66290,10 @@ ktB
 gcK
 gcK
 gcK
-gcK
-occ
-vAe
+wnt
 fyf
+fyf
+vAe
 ktB
 ktB
 fyf
@@ -68322,8 +68346,8 @@ loO
 fyf
 fyf
 fyf
-fyf
 qTG
+occ
 vAe
 fyf
 fyf
@@ -69345,7 +69369,7 @@ buD
 buD
 qfi
 cWy
-djh
+iyP
 buD
 gVg
 grc
@@ -69615,9 +69639,9 @@ lHr
 tBN
 mvv
 mvv
+azm
 mvv
-mvv
-mvv
+azm
 mvv
 doX
 cWG
@@ -70131,10 +70155,10 @@ mvv
 pGq
 tsv
 mvv
+mvv
 tpD
 vsm
 aBH
-mfD
 xGH
 mvv
 mvv
@@ -70388,10 +70412,10 @@ goK
 rlm
 ttU
 unW
+unW
 vwt
 xzn
 xqy
-fyf
 nlO
 mfD
 mfD
@@ -70645,10 +70669,10 @@ vVU
 jnE
 tBm
 unW
+unW
 vBr
 xKi
 vAe
-fyf
 fyf
 fyf
 fyf
@@ -70902,12 +70926,12 @@ fyf
 ryH
 unW
 uBU
+unW
 vDe
 xKi
 bKy
-fyf
+hAC
 fmR
-fyf
 fyf
 nlO
 mfD
@@ -71158,14 +71182,14 @@ uey
 fyf
 jnE
 tZT
+unW
 nJr
 vJP
 xKi
 fyf
 fyf
 iVQ
-fyf
-fyf
+keK
 vAe
 jxH
 mvB
@@ -71415,13 +71439,13 @@ qwW
 qwW
 smq
 bEP
+unW
 xcV
 mRH
 xKi
 qTY
 fyf
 fyf
-keK
 pEv
 cqG
 kKk
@@ -71674,8 +71698,8 @@ qoL
 iaB
 iaB
 iaB
+iaB
 lHr
-gcK
 gcK
 gcK
 pEv
@@ -71911,7 +71935,7 @@ ktB
 gcK
 gcK
 gcK
-fyf
+ukD
 fyf
 fyf
 uey

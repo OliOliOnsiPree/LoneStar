@@ -730,7 +730,7 @@
 /area/f13/building)
 "iW" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/table/wood/fancy/royalblack,
+/obj/structure/bonfire,
 /turf/open/floor/f13/wood,
 /area/f13/wasteland)
 "ja" = (
@@ -2444,10 +2444,6 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
-"GJ" = (
-/obj/structure/lattice/catwalk,
-/turf/closed/mineral/random/low_chance,
-/area/f13/caves)
 "GX" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/outside/woodalt,
@@ -3096,6 +3092,10 @@
 /obj/structure/barricade/wooden,
 /turf/closed/wall/f13/wood,
 /area/f13/building)
+"Oh" = (
+/obj/structure/lattice/catwalk,
+/turf/closed/mineral/random/low_chance,
+/area/f13/caves)
 "Oj" = (
 /obj/structure/simple_door/wood,
 /turf/open/floor/f13/wood,
@@ -12421,7 +12421,7 @@ kC
 kC
 kC
 kC
-PL
+kC
 kC
 kC
 kC
@@ -17056,7 +17056,7 @@ PL
 BY
 BY
 BY
-PL
+BY
 PL
 PL
 PL
@@ -17313,7 +17313,7 @@ PL
 BY
 BY
 BY
-PL
+BY
 PL
 PL
 PL
@@ -17570,7 +17570,7 @@ PL
 BY
 BY
 BY
-PL
+BY
 PL
 PL
 PL
@@ -17827,7 +17827,7 @@ PL
 BY
 BY
 BY
-PL
+BY
 PL
 PL
 PL
@@ -19869,7 +19869,7 @@ PL
 PL
 PL
 PL
-GJ
+Oh
 kC
 AM
 AM
