@@ -363,10 +363,6 @@
 	},
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
-"ei" = (
-/obj/structure/lattice/catwalk,
-/turf/closed/mineral/random/low_chance,
-/area/f13/caves)
 "er" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -2448,6 +2444,10 @@
 	sunlight_state = 1
 	},
 /area/f13/wasteland)
+"GJ" = (
+/obj/structure/lattice/catwalk,
+/turf/closed/mineral/random/low_chance,
+/area/f13/caves)
 "GX" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/indestructible/ground/outside/woodalt,
@@ -2995,7 +2995,6 @@
 	},
 /obj/item/clothing/mask/cigarette/rollie/cannabis{
 	pixel_x = -6;
-	pixel_z = -5;
 	pixel_y = 7;
 	layer = 4
 	},
@@ -19870,7 +19869,7 @@ PL
 PL
 PL
 PL
-ei
+GJ
 kC
 AM
 AM
