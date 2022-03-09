@@ -1062,6 +1062,10 @@
 	},
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
+"oh" = (
+/obj/structure/lattice/catwalk,
+/turf/closed/mineral/random/low_chance,
+/area/f13/caves)
 "oi" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/purple/side,
@@ -18847,8 +18851,8 @@ PL
 PL
 PL
 PL
-AM
-AM
+Gl
+Gl
 AM
 kC
 kC
@@ -19867,7 +19871,7 @@ PL
 PL
 PL
 PL
-kC
+oh
 kC
 AM
 AM

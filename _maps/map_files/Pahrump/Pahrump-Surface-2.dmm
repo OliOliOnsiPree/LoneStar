@@ -4928,6 +4928,7 @@
 /obj/item/flashlight/glowstick/red,
 /obj/item/reagent_containers/food/drinks/bottle/molotov/filled,
 /obj/structure/rack/shelf_metal,
+/obj/machinery/light/floor,
 /turf/open/floor/f13/wood{
 	icon_state = "housewood2-broken"
 	},
