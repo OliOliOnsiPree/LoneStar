@@ -363,6 +363,10 @@
 	},
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
+"ei" = (
+/obj/structure/lattice/catwalk,
+/turf/closed/mineral/random/low_chance,
+/area/f13/caves)
 "er" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -1062,10 +1066,6 @@
 	},
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
-"oh" = (
-/obj/structure/lattice/catwalk,
-/turf/closed/mineral/random/low_chance,
-/area/f13/caves)
 "oi" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/f13/vault_floor/purple/side,
@@ -2994,7 +2994,6 @@
 	icon_state = "bench"
 	},
 /obj/item/clothing/mask/cigarette/rollie/cannabis{
-	pixel_w = null;
 	pixel_x = -6;
 	pixel_z = -5;
 	pixel_y = 7;
@@ -19871,7 +19870,7 @@ PL
 PL
 PL
 PL
-oh
+ei
 kC
 AM
 AM
