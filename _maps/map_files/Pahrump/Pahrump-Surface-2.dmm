@@ -1249,9 +1249,6 @@
 	dir = 10
 	},
 /area/f13/village)
-"azm" = (
-/turf/open/indestructible/ground/outside/savannah/topleft,
-/area/f13/caves)
 "azz" = (
 /obj/item/ammo_casing/a556,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -13959,7 +13956,7 @@
 /area/f13/raiders)
 "fQa" = (
 /turf/open/indestructible/ground/outside/savannah/bottomleft,
-/area/f13/caves)
+/area/f13/wasteland)
 "fQr" = (
 /obj/structure/sign/poster/official/help_others,
 /turf/closed/wall/f13/wood,
@@ -71156,7 +71153,7 @@ mvv
 mvv
 mvv
 bpD
-fyf
+uey
 fyf
 jnE
 tZT
@@ -72442,7 +72439,7 @@ jwl
 ueT
 jml
 fQa
-azm
+ebx
 gcK
 ktB
 gcK
