@@ -15668,7 +15668,9 @@
 /area/f13/building)
 "gwi" = (
 /obj/effect/landmark/start/f13/pusher,
-/turf/open/indestructible/ground/outside/dirt,
+/turf/open/indestructible/ground/outside/dirt{
+	icon_state = "dirt"
+	},
 /area/f13/wasteland)
 "gwp" = (
 /obj/effect/decal/cleanable/dirt{
@@ -37905,8 +37907,9 @@
 /area/f13/tunnel)
 "pGq" = (
 /obj/structure/table/wood,
-/obj/machinery/chem_dispenser/drinks{
-	dir = 8
+/obj/item/reagent_containers/food/drinks/bottle/bawls{
+	pixel_x = -5;
+	pixel_y = 15
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
@@ -42853,6 +42856,13 @@
 	name = "metal plating"
 	},
 /area/f13/building)
+"rRn" = (
+/obj/effect/landmark/start/f13/pusher,
+/turf/open/indestructible/ground/outside/dirt{
+	dir = 8;
+	icon_state = "dirt"
+	},
+/area/f13/wasteland)
 "rRt" = (
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/indestructible/ground/outside/sidewalk,
@@ -46364,9 +46374,6 @@
 /obj/structure/table/wood,
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 4
-	},
-/obj/machinery/chem_dispenser/drinks/beer{
-	dir = 8
 	},
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/wasteland)
@@ -50724,9 +50731,8 @@
 /area/f13/bar)
 "vjO" = (
 /obj/effect/landmark/start/f13/pusher,
-/turf/open/indestructible/ground/outside/dirt{
-	dir = 5;
-	icon_state = "dirt"
+/turf/open/indestructible/ground/outside/desert{
+	icon_state = "wasteland32"
 	},
 /area/f13/wasteland)
 "vjR" = (
@@ -55031,6 +55037,16 @@
 /obj/structure/destructible/tribal_torch/wall/lit{
 	dir = 4
 	},
+/obj/item/reagent_containers/food/drinks/bottle/kahlua,
+/obj/item/reagent_containers/food/drinks/bottle/fernet,
+/obj/item/reagent_containers/food/drinks/bottle/champagne,
+/obj/item/reagent_containers/food/drinks/bottle/vodka/badminka,
+/obj/item/reagent_containers/food/drinks/bottle/whiskey,
+/obj/item/reagent_containers/food/drinks/bottle/vodka,
+/obj/item/reagent_containers/food/drinks/bottle/trappist,
+/obj/item/reagent_containers/food/drinks/bottle/sake,
+/obj/item/reagent_containers/food/drinks/bottle/rotgut,
+/obj/item/reagent_containers/food/drinks/bottle/blazaam,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/raiders)
 "xcX" = (
@@ -67320,7 +67336,7 @@ hTs
 lqV
 hTs
 oOh
-cWG
+wsw
 wDc
 fyf
 dys
@@ -67834,7 +67850,7 @@ hTs
 unW
 hTs
 qSs
-mfD
+rRn
 hCg
 qOV
 ntv
@@ -68608,7 +68624,7 @@ lHU
 lHU
 lHU
 mVv
-uey
+vjO
 qOV
 cWG
 ghU
@@ -68868,9 +68884,9 @@ nVu
 nDJ
 daU
 wUL
-gwi
 mvv
-vjO
+mvv
+doX
 xkI
 wDc
 xlE
@@ -69382,7 +69398,7 @@ mUo
 xGH
 mvv
 gYA
-gwi
+mvv
 mvv
 mvv
 lXB
@@ -69636,7 +69652,7 @@ iaB
 iaB
 iaB
 lHr
-tBN
+gwi
 mvv
 mvv
 azm
