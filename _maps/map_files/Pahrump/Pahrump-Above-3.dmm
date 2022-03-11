@@ -2762,6 +2762,14 @@
 	sunlight_state = 1
 	},
 /area/f13/raiders)
+"KJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/campfire/stove{
+	density = 0;
+	pixel_y = 16
+	},
+/turf/open/indestructible/ground/outside/woodalt,
+/area/f13/wasteland)
 "KQ" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -3722,12 +3730,11 @@
 /turf/open/floor/plasteel/grimy,
 /area/f13/brotherhood/surface)
 "Vs" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/campfire/stove{
 	density = 0;
-	pixel_y = 16
+	pixel_y = -13
 	},
-/turf/open/floor/f13/wood,
+/turf/closed/wall/f13/wood/house,
 /area/f13/raiders)
 "Vt" = (
 /obj/machinery/light/small,
@@ -17288,8 +17295,8 @@ kC
 kC
 kC
 kC
-oM
 Vs
+Zb
 Zb
 Zb
 eu
@@ -18578,7 +18585,7 @@ kC
 kC
 kC
 kC
-GX
+KJ
 GX
 jI
 PL
