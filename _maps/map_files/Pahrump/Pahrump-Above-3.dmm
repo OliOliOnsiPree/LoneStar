@@ -978,8 +978,8 @@
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
 "no" = (
-/obj/effect/decal/cleanable/dirt,
 /obj/structure/destructible/tribal_torch/wall/lit,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/raiders)
 "ns" = (
@@ -1216,7 +1216,7 @@
 /area/f13/building)
 "qo" = (
 /obj/structure/simple_door/repaired,
-/turf/open/indestructible/ground/outside/woodalt,
+/turf/open/floor/f13/wood,
 /area/f13/raiders)
 "qs" = (
 /obj/structure/chair/sofa/corp/right,
