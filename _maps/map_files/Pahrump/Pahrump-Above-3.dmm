@@ -665,10 +665,10 @@
 /area/f13/building)
 "iC" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
 /obj/machinery/light/small/broken{
 	dir = 8
 	},
+/obj/structure/table/wood/settler,
 /turf/open/floor/f13/wood,
 /area/f13/raiders)
 "iF" = (
@@ -2100,7 +2100,7 @@
 /area/f13/ncr)
 "Cp" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/table,
+/obj/structure/table/wood/settler,
 /turf/open/floor/f13/wood,
 /area/f13/raiders)
 "CA" = (
