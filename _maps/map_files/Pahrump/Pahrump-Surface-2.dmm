@@ -55498,7 +55498,7 @@
 /obj/item/reagent_containers/food/drinks/bottle/trappist,
 /obj/item/reagent_containers/food/drinks/bottle/sake,
 /obj/item/reagent_containers/food/drinks/bottle/rotgut,
-/obj/item/reagent_containers/food/drinks/bottle/blazaam,
+/obj/item/reagent_containers/food/drinks/bottle/blazaam/empty,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/raiders)
 "xcX" = (
