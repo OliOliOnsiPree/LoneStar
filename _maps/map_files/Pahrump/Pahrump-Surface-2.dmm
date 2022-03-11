@@ -12206,9 +12206,7 @@
 /area/f13/building)
 "fdA" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/stairs/east{
-	color = "#A47449"
-	},
+/obj/structure/stairs/east,
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/brotherhood/surface)
 "fdO" = (
@@ -21217,9 +21215,7 @@
 /turf/open/floor/f13,
 /area/f13/building)
 "iDS" = (
-/obj/structure/stairs/east{
-	color = "#A47449"
-	},
+/obj/structure/stairs/east,
 /turf/open/floor/f13{
 	icon_state = "floorrusty"
 	},
