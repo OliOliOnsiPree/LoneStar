@@ -2250,12 +2250,6 @@
 /obj/structure/chair/comfy/plywood,
 /turf/open/floor/wood/wood_large,
 /area/f13/ncr)
-"Eq" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/generic,
-/mob/living/simple_animal/hostile/ghoul/legendary,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
 "Er" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood{
@@ -2768,11 +2762,6 @@
 	sunlight_state = 1
 	},
 /area/f13/raiders)
-"KJ" = (
-/obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/ghoul/zombie/legendary,
-/turf/open/floor/f13,
-/area/f13/brotherhood/surface)
 "KQ" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -37296,7 +37285,7 @@ RC
 aI
 PO
 iJ
-Eq
+Ko
 Rr
 Ru
 rX
@@ -37553,7 +37542,7 @@ tl
 VR
 PV
 or
-KJ
+Rr
 Rr
 Rr
 NS
