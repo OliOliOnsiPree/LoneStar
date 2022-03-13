@@ -2762,14 +2762,6 @@
 	sunlight_state = 1
 	},
 /area/f13/raiders)
-"KJ" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/campfire/stove{
-	density = 0;
-	pixel_y = 16
-	},
-/turf/open/indestructible/ground/outside/woodalt,
-/area/f13/wasteland)
 "KQ" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -18585,7 +18577,7 @@ kC
 kC
 kC
 kC
-KJ
+GX
 GX
 jI
 PL
