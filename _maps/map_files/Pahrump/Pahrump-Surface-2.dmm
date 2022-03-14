@@ -48098,6 +48098,10 @@
 /obj/item/reagent_containers/food/snacks/f13/canned/porknbeans,
 /obj/item/reagent_containers/food/snacks/beans,
 /obj/item/reagent_containers/food/condiment/bbqsauce,
+/obj/item/reagent_containers/food/snacks/f13/canned/porknbeans,
+/obj/item/reagent_containers/food/snacks/f13/canned/porknbeans,
+/obj/item/reagent_containers/food/snacks/beans,
+/obj/item/reagent_containers/food/snacks/beans,
 /turf/open/indestructible/ground/outside/dirt,
 /area/f13/raiders)
 "tZW" = (
