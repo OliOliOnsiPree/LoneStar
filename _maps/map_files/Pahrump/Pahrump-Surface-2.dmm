@@ -7951,6 +7951,8 @@
 "dre" = (
 /obj/structure/rack,
 /obj/item/stack/sheet/metal/ten,
+/obj/item/clothing/mask/gas/explorer,
+/obj/item/clothing/mask/gas/explorer,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "drr" = (
