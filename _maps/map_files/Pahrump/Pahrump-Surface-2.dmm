@@ -7949,20 +7949,8 @@
 	},
 /area/f13/wasteland)
 "dre" = (
-/obj/structure/closet/crate/large,
-/obj/item/storage/toolbox/ammo{
-	ammotype = /obj/item/ammo_box/magazine/greasegun/empty;
-	name = "ammunition case (.45 grease gun magazines)"
-	},
-/obj/item/storage/toolbox/ammo{
-	ammotype = /obj/item/ammo_box/magazine/greasegun/empty;
-	name = "ammunition case (.45 grease gun magazines)"
-	},
-/obj/item/storage/toolbox/ammo{
-	ammotype = /obj/item/ammo_box/magazine/greasegun/empty;
-	name = "ammunition case (.45 grease gun magazines)"
-	},
-/turf/open/indestructible/ground/inside/mountain,
+/obj/item/reagent_containers/hypospray/medipen/stimpak/imitation,
+/turf/closed/mineral/random/low_chance,
 /area/f13/caves)
 "drr" = (
 /obj/machinery/biogenerator,
@@ -24309,13 +24297,6 @@
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
-"jKZ" = (
-/obj/structure/rack,
-/obj/item/stack/sheet/metal/ten,
-/obj/item/clothing/mask/gas/explorer,
-/obj/item/clothing/mask/gas/explorer,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/caves)
 "jLK" = (
 /obj/structure/closet,
 /obj/item/clothing/gloves/combat,
@@ -44996,6 +44977,13 @@
 	icon_state = "horizontalbottomborderbottom2"
 	},
 /area/f13/wasteland)
+"sBu" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/metal/ten,
+/obj/item/clothing/mask/gas/explorer,
+/obj/item/clothing/mask/gas/explorer,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "sBH" = (
 /obj/structure/chair/wood/modern{
 	dir = 1
@@ -50321,8 +50309,12 @@
 	},
 /area/f13/wasteland)
 "uPa" = (
-/obj/item/reagent_containers/hypospray/medipen/stimpak/imitation,
-/turf/closed/mineral/random/low_chance,
+/obj/structure/closet/crate/large,
+/obj/item/storage/toolbox/ammo{
+	ammotype = /obj/item/ammo_box/magazine/greasegun/empty;
+	name = "ammunition case (.45 grease gun magazines)"
+	},
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "uPj" = (
 /obj/structure/fence{
@@ -61121,7 +61113,7 @@ ggK
 fcI
 ggK
 xKr
-uPa
+dre
 gcK
 ktB
 gbL
@@ -62919,7 +62911,7 @@ lhc
 ggK
 ggK
 ggK
-dre
+uPa
 gcK
 gcK
 gbL
@@ -64713,7 +64705,7 @@ gcK
 gbL
 ktB
 gcK
-jKZ
+sBu
 ggK
 wOP
 ggK
