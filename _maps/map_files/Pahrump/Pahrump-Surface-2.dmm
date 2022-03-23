@@ -384,6 +384,7 @@
 /area/f13/building)
 "ahP" = (
 /obj/item/twohanded/spear/scrapspear,
+/obj/item/warpaint_bowl,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "aig" = (
@@ -7949,8 +7950,11 @@
 	},
 /area/f13/wasteland)
 "dre" = (
-/obj/item/reagent_containers/hypospray/medipen/stimpak/imitation,
-/turf/closed/mineral/random/low_chance,
+/obj/structure/rack,
+/obj/item/stack/sheet/metal/ten,
+/obj/item/clothing/mask/gas/explorer,
+/obj/item/clothing/mask/gas/explorer,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "drr" = (
 /obj/machinery/biogenerator,
@@ -44977,13 +44981,6 @@
 	icon_state = "horizontalbottomborderbottom2"
 	},
 /area/f13/wasteland)
-"sBu" = (
-/obj/structure/rack,
-/obj/item/stack/sheet/metal/ten,
-/obj/item/clothing/mask/gas/explorer,
-/obj/item/clothing/mask/gas/explorer,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/caves)
 "sBH" = (
 /obj/structure/chair/wood/modern{
 	dir = 1
@@ -56428,6 +56425,9 @@
 /obj/item/reagent_containers/blood/radaway,
 /obj/item/reagent_containers/hypospray/medipen/stimpak/imitation,
 /obj/item/reagent_containers/hypospray/medipen/stimpak/imitation,
+/obj/item/storage/fancy/rollingpapers,
+/obj/item/storage/fancy/rollingpapers,
+/obj/item/storage/fancy/rollingpapers,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "xrj" = (
@@ -61113,7 +61113,7 @@ ggK
 fcI
 ggK
 xKr
-dre
+gcK
 gcK
 ktB
 gbL
@@ -64705,7 +64705,7 @@ gcK
 gbL
 ktB
 gcK
-sBu
+dre
 ggK
 wOP
 ggK
