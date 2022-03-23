@@ -2171,7 +2171,7 @@
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
 "aUr" = (
-/obj/structure/simple_door/brokenglass,
+/obj/structure/simple_door/repaired,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "aUL" = (
@@ -7668,8 +7668,8 @@
 	},
 /area/f13/followers)
 "dmg" = (
-/obj/machinery/jukebox,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/junk/jukebox,
 /turf/open/floor/wood/f13/carpet,
 /area/f13/bar)
 "dmC" = (
@@ -7949,11 +7949,8 @@
 	},
 /area/f13/wasteland)
 "dre" = (
-/obj/structure/rack,
-/obj/item/stack/sheet/metal/ten,
-/obj/item/clothing/mask/gas/explorer,
-/obj/item/clothing/mask/gas/explorer,
-/turf/open/indestructible/ground/inside/mountain,
+/obj/item/reagent_containers/hypospray/medipen/stimpak/imitation,
+/turf/closed/mineral/random/low_chance,
 /area/f13/caves)
 "drr" = (
 /obj/machinery/biogenerator,
@@ -10303,6 +10300,13 @@
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"eqw" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/metal/ten,
+/obj/item/clothing/mask/gas/explorer,
+/obj/item/clothing/mask/gas/explorer,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "eqC" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -29220,9 +29224,9 @@
 /turf/open/floor/f13/wood,
 /area/f13/building)
 "lNp" = (
-/obj/structure/barricade/wooden/strong,
 /obj/structure/barricade/wooden/planks/pregame,
-/turf/open/indestructible/ground/inside/mountain,
+/obj/structure/barricade/wooden/strong,
+/turf/closed/wall/f13/wood,
 /area/f13/caves)
 "lNv" = (
 /obj/structure/table/wood,
@@ -50305,8 +50309,21 @@
 	},
 /area/f13/wasteland)
 "uPa" = (
-/turf/open/space/basic,
-/area/f13/wasteland)
+/obj/structure/closet/crate/large,
+/obj/item/storage/toolbox/ammo{
+	ammotype = null;
+	name = "ammunition case"
+	},
+/obj/item/storage/toolbox/ammo{
+	ammotype = null;
+	name = "ammunition case"
+	},
+/obj/item/storage/toolbox/ammo{
+	ammotype = null;
+	name = "ammunition case"
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "uPj" = (
 /obj/structure/fence{
 	dir = 4
@@ -61104,7 +61121,7 @@ ggK
 fcI
 ggK
 xKr
-gcK
+dre
 gcK
 ktB
 gbL
@@ -62898,12 +62915,12 @@ gcK
 gcK
 gcK
 gcK
-ktB
-aGX
-xTq
+lhc
 ggK
-ktB
-ktB
+ggK
+ggK
+uPa
+gcK
 gcK
 gbL
 gcK
@@ -63141,7 +63158,7 @@ ggK
 ggK
 ggK
 mwO
-dhG
+rjE
 ktB
 gcK
 gcK
@@ -63153,16 +63170,16 @@ gcK
 gcK
 gcK
 gcK
+gcK
+gcK
 ktB
+aGX
+xTq
+ggK
 ktB
 ktB
 gcK
-lhc
-gAs
-gcK
-ktB
-ktB
-gcK
+gbL
 gcK
 gbL
 gbL
@@ -63409,17 +63426,17 @@ gcK
 gcK
 gcK
 gcK
+gcK
 ktB
 ktB
+ktB
 gcK
-gcK
-gcK
-gcK
+ggK
 gAs
-dhG
 gcK
 ktB
 ktB
+gcK
 gbL
 gbL
 gbL
@@ -63667,15 +63684,15 @@ gcK
 gcK
 gcK
 ktB
+ktB
+gcK
+gcK
 gcK
 gcK
 gAs
-ggK
-woL
-fCR
-gAs
+dhG
 gcK
-gcK
+ktB
 ktB
 gbL
 gbL
@@ -63925,13 +63942,13 @@ gcK
 gcK
 ktB
 gcK
-ubK
+gcK
+gAs
 ggK
-ggK
-cTE
-ggK
-uke
-ggK
+woL
+fCR
+gAs
+gcK
 gcK
 ktB
 gbL
@@ -64182,12 +64199,12 @@ gcK
 gcK
 ktB
 gcK
-fhb
+ubK
 ggK
-njC
 ggK
-pnI
+cTE
 ggK
+uke
 ggK
 gcK
 ktB
@@ -64434,18 +64451,18 @@ ktB
 gcK
 gcK
 gcK
-gbL
 gcK
-gbL
+gcK
+gcK
 ktB
 gcK
-dre
+fhb
 ggK
-wOP
+njC
+ggK
+pnI
 ggK
 ggK
-ccN
-gcK
 gcK
 ktB
 gbL
@@ -64692,18 +64709,18 @@ gcK
 gcK
 gcK
 gbL
-gbL
+gcK
 gbL
 ktB
 gcK
-dhG
-hJv
+eqw
 ggK
-fcI
-aqZ
-sqf
+wOP
+ggK
+ggK
+ccN
 gcK
-ktB
+gcK
 ktB
 gbL
 gcK
@@ -64953,15 +64970,15 @@ gbL
 gbL
 ktB
 gcK
-gcK
-gcK
-aqZ
-ggK
-ggK
 dhG
+hJv
+ggK
+fcI
+aqZ
+sqf
 gcK
 ktB
-gbL
+ktB
 gbL
 gcK
 gcK
@@ -65209,16 +65226,16 @@ gbL
 gbL
 gbL
 ktB
+gcK
+gcK
+gcK
+aqZ
+ggK
+ggK
+dhG
+gcK
 ktB
-ktB
-gcK
-gcK
-gcK
-gcK
-gcK
-gcK
-ktB
-gcK
+gbL
 gcK
 gcK
 gcK
@@ -65462,18 +65479,18 @@ gcK
 ktB
 ktB
 gcK
+gbL
+gbL
+gbL
+ktB
+ktB
+ktB
 gcK
-gbL
-gbL
-gbL
-gbL
-ktB
-ktB
-ktB
-ktB
-ktB
-ktB
-ktB
+gcK
+gcK
+gcK
+gcK
+gcK
 ktB
 gcK
 gcK
@@ -65724,14 +65741,14 @@ gbL
 gbL
 gbL
 gbL
-gbL
-gbL
-gbL
-gbL
-gbL
-gbL
-gcK
-gcK
+ktB
+ktB
+ktB
+ktB
+ktB
+ktB
+ktB
+ktB
 gcK
 gcK
 gcK
@@ -65977,7 +65994,7 @@ gcK
 ktB
 gcK
 gcK
-gcK
+gbL
 gbL
 gbL
 gbL
@@ -66235,8 +66252,8 @@ ktB
 gcK
 gcK
 gcK
-gcK
-gcK
+gbL
+gbL
 gbL
 gbL
 gbL
@@ -66494,7 +66511,7 @@ gcK
 gcK
 gcK
 gcK
-gcK
+gbL
 gbL
 gbL
 gbL
@@ -66752,13 +66769,13 @@ gcK
 gcK
 gcK
 gcK
-gcK
-gcK
 gbL
 gbL
 gbL
 gbL
-gcK
+gbL
+gbL
+gbL
 gcK
 gcK
 gcK
@@ -67011,11 +67028,11 @@ gcK
 gcK
 gcK
 gcK
-gcK
 gbL
 gbL
 gbL
-gcK
+gbL
+gbL
 gcK
 gcK
 gcK
@@ -67269,10 +67286,10 @@ gcK
 gcK
 gcK
 gcK
-gcK
-gcK
-gcK
-gcK
+gbL
+gbL
+gbL
+gbL
 gcK
 gcK
 gcK
@@ -77303,7 +77320,7 @@ cWG
 cWG
 wDc
 kGc
-uPa
+nPg
 ybI
 sTa
 sJw
