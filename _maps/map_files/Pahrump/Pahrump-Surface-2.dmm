@@ -7949,8 +7949,20 @@
 	},
 /area/f13/wasteland)
 "dre" = (
-/obj/item/reagent_containers/hypospray/medipen/stimpak/imitation,
-/turf/closed/mineral/random/low_chance,
+/obj/structure/closet/crate/large,
+/obj/item/storage/toolbox/ammo{
+	ammotype = /obj/item/ammo_box/magazine/greasegun/empty;
+	name = "ammunition case (.45 grease gun magazines)"
+	},
+/obj/item/storage/toolbox/ammo{
+	ammotype = /obj/item/ammo_box/magazine/greasegun/empty;
+	name = "ammunition case (.45 grease gun magazines)"
+	},
+/obj/item/storage/toolbox/ammo{
+	ammotype = /obj/item/ammo_box/magazine/greasegun/empty;
+	name = "ammunition case (.45 grease gun magazines)"
+	},
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "drr" = (
 /obj/machinery/biogenerator,
@@ -10300,13 +10312,6 @@
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
-"eqw" = (
-/obj/structure/rack,
-/obj/item/stack/sheet/metal/ten,
-/obj/item/clothing/mask/gas/explorer,
-/obj/item/clothing/mask/gas/explorer,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/caves)
 "eqC" = (
 /obj/effect/decal/remains/human,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -24304,6 +24309,13 @@
 	icon_state = "dirt"
 	},
 /area/f13/wasteland)
+"jKZ" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/metal/ten,
+/obj/item/clothing/mask/gas/explorer,
+/obj/item/clothing/mask/gas/explorer,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "jLK" = (
 /obj/structure/closet,
 /obj/item/clothing/gloves/combat,
@@ -50309,20 +50321,8 @@
 	},
 /area/f13/wasteland)
 "uPa" = (
-/obj/structure/closet/crate/large,
-/obj/item/storage/toolbox/ammo{
-	ammotype = null;
-	name = "ammunition case"
-	},
-/obj/item/storage/toolbox/ammo{
-	ammotype = null;
-	name = "ammunition case"
-	},
-/obj/item/storage/toolbox/ammo{
-	ammotype = null;
-	name = "ammunition case"
-	},
-/turf/open/indestructible/ground/inside/mountain,
+/obj/item/reagent_containers/hypospray/medipen/stimpak/imitation,
+/turf/closed/mineral/random/low_chance,
 /area/f13/caves)
 "uPj" = (
 /obj/structure/fence{
@@ -61121,7 +61121,7 @@ ggK
 fcI
 ggK
 xKr
-dre
+uPa
 gcK
 ktB
 gbL
@@ -62919,7 +62919,7 @@ lhc
 ggK
 ggK
 ggK
-uPa
+dre
 gcK
 gcK
 gbL
@@ -64713,7 +64713,7 @@ gcK
 gbL
 ktB
 gcK
-eqw
+jKZ
 ggK
 wOP
 ggK
