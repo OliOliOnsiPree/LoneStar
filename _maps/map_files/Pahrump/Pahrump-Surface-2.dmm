@@ -2642,6 +2642,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/caves)
+"bdI" = (
+/obj/structure/mirelurkegg,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/caves)
 "bdN" = (
 /obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -4318,6 +4322,12 @@
 /obj/machinery/reagentgrinder,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/f13/building)
+"bMD" = (
+/obj/structure/chair/wood/worn{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "bMG" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -16822,6 +16832,7 @@
 	icon_state = "remains"
 	},
 /obj/effect/decal/cleanable/cobweb,
+/obj/item/clothing/head/ushanka,
 /turf/open/floor/wood/f13/oak,
 /area/f13/bar)
 "gRL" = (
@@ -17283,6 +17294,19 @@
 	name = "stone floor"
 	},
 /area/f13/legion)
+"hbX" = (
+/obj/structure/barricade/wooden/strong,
+/obj/structure/decoration/rag{
+	icon_state = "skin"
+	},
+/obj/structure/decoration/rag,
+/obj/structure/decoration/rag{
+	icon_state = "skulls"
+	},
+/turf/open/floor/wood/f13/oak{
+	icon_state = "oakfloor3-broken"
+	},
+/area/f13/bar)
 "hbY" = (
 /obj/structure/chair/left,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
@@ -19315,9 +19339,8 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "hNC" = (
-/obj/structure/flora/grass/jungle,
-/mob/living/simple_animal/hostile/mirelurk/hunter,
-/turf/open/indestructible/ground/outside/water,
+/obj/item/chair/stool,
+/turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "hNI" = (
 /obj/machinery/mineral/wasteland_vendor/ammo,
@@ -26442,6 +26465,9 @@
 /obj/effect/decal/cleanable/cobweb/cobweb2,
 /obj/structure/spider/spiderling,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/poster/contraband/communist_state{
+	pixel_y = 31
+	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/bar)
 "kEc" = (
@@ -27184,6 +27210,10 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/building)
+"kUh" = (
+/obj/item/chair/wood,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "kUj" = (
 /obj/machinery/light{
 	dir = 8;
@@ -41451,6 +41481,14 @@
 /obj/structure/junk/small/table,
 /turf/open/floor/wood,
 /area/f13/building)
+"qTA" = (
+/obj/structure/barricade/wooden/strong,
+/obj/structure/fence/wooden{
+	dir = 4
+	},
+/obj/structure/destructible/tribal_torch/wall,
+/turf/closed/mineral/random/low_chance,
+/area/f13/caves)
 "qTG" = (
 /obj/structure/reagent_dispensers/barrel/three,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug{
@@ -52769,6 +52807,12 @@
 /obj/item/reagent_containers/spray/cleaner,
 /turf/open/floor/plasteel/f13/vault_floor/neutral/neutralsolid,
 /area/f13/building)
+"vPT" = (
+/obj/structure/disposalpipe/broken{
+	dir = 1
+	},
+/turf/open/indestructible/ground/outside/water,
+/area/f13/caves)
 "vPY" = (
 /obj/structure/fence/corner{
 	dir = 4;
@@ -59024,7 +59068,7 @@ gcK
 gcK
 gcK
 ktB
-ggK
+bkr
 ggK
 gbL
 gbL
@@ -59289,7 +59333,7 @@ wiG
 hsj
 wOS
 wOS
-wOS
+meQ
 wOS
 kJu
 wOS
@@ -59538,11 +59582,11 @@ fyf
 fyf
 gcK
 ktB
-wOS
+vPT
 wOS
 hsj
 oNR
-meQ
+wOS
 izB
 wOS
 rpf
@@ -59796,8 +59840,8 @@ fyf
 gcK
 ktB
 ktB
-hNC
-wOS
+hsj
+bdI
 hsj
 iyy
 wOS
@@ -61866,12 +61910,12 @@ gcK
 gbL
 gbL
 gcK
-gcK
+qTA
 vvV
-ggK
-ggK
+ahI
+hNC
 wsq
-ggK
+kUh
 ggK
 vvV
 gcK
@@ -62123,12 +62167,12 @@ gbL
 gbL
 gbL
 gcK
-ahI
-iOM
+spx
 ggK
 ggK
+ggK
+bMD
 rCO
-ggK
 ggK
 iWp
 gcK
@@ -65981,7 +66025,7 @@ fyf
 fyf
 fyf
 fyf
-xXi
+vSS
 gcK
 ktB
 gcK
@@ -74505,7 +74549,7 @@ fTy
 kBU
 uQP
 uQP
-uQP
+hbX
 kBU
 unI
 sQX
