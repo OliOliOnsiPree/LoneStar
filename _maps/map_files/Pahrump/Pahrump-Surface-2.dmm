@@ -2642,10 +2642,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/f13/wood,
 /area/f13/caves)
-"bdI" = (
-/obj/structure/mirelurkegg,
-/turf/open/indestructible/ground/outside/water,
-/area/f13/caves)
 "bdN" = (
 /obj/structure/barricade/sandbags,
 /turf/open/indestructible/ground/outside/sidewalk{
@@ -4322,12 +4318,6 @@
 /obj/machinery/reagentgrinder,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
 /area/f13/building)
-"bMD" = (
-/obj/structure/chair/wood/worn{
-	dir = 8
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/caves)
 "bMG" = (
 /obj/structure/table,
 /obj/machinery/computer/terminal{
@@ -5943,6 +5933,12 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/village)
+"czA" = (
+/obj/structure/disposalpipe/broken{
+	dir = 1
+	},
+/turf/open/indestructible/ground/outside/water,
+/area/f13/caves)
 "czE" = (
 /obj/effect/decal/cleanable/blood/gibs/down{
 	icon_state = "gibtorso"
@@ -15143,6 +15139,12 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
+"giT" = (
+/obj/structure/chair/wood/worn{
+	dir = 8
+	},
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "giU" = (
 /obj/structure/table/wood/settler,
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
@@ -17294,19 +17296,6 @@
 	name = "stone floor"
 	},
 /area/f13/legion)
-"hbX" = (
-/obj/structure/barricade/wooden/strong,
-/obj/structure/decoration/rag{
-	icon_state = "skin"
-	},
-/obj/structure/decoration/rag,
-/obj/structure/decoration/rag{
-	icon_state = "skulls"
-	},
-/turf/open/floor/wood/f13/oak{
-	icon_state = "oakfloor3-broken"
-	},
-/area/f13/bar)
 "hbY" = (
 /obj/structure/chair/left,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria,
@@ -19339,7 +19328,7 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "hNC" = (
-/obj/item/chair/stool,
+/obj/item/chair/wood,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "hNI" = (
@@ -25936,6 +25925,10 @@
 	icon_state = "horizontalbottomborderbottom0"
 	},
 /area/f13/wasteland)
+"kqC" = (
+/obj/structure/mirelurkegg,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/caves)
 "kqF" = (
 /obj/structure/chair/booth{
 	icon_state = "booth_west_north"
@@ -27210,10 +27203,6 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/building)
-"kUh" = (
-/obj/item/chair/wood,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/caves)
 "kUj" = (
 /obj/machinery/light{
 	dir = 8;
@@ -31418,6 +31407,19 @@
 	smooth = 1
 	},
 /area/f13/building)
+"mHR" = (
+/obj/structure/barricade/wooden/strong,
+/obj/structure/decoration/rag{
+	icon_state = "skin"
+	},
+/obj/structure/decoration/rag,
+/obj/structure/decoration/rag{
+	icon_state = "skulls"
+	},
+/turf/open/floor/wood/f13/oak{
+	icon_state = "oakfloor3-broken"
+	},
+/area/f13/bar)
 "mHS" = (
 /obj/machinery/vending/tool,
 /turf/open/floor/plasteel/barber{
@@ -35287,6 +35289,10 @@
 /obj/structure/campfire/barrel,
 /turf/open/floor/wood/f13/old,
 /area/f13/building)
+"ooZ" = (
+/obj/item/chair/stool,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "opl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -36677,6 +36683,14 @@
 	icon_state = "bluerustysolid"
 	},
 /area/f13/building)
+"oTx" = (
+/obj/structure/barricade/wooden/strong,
+/obj/structure/fence/wooden{
+	dir = 4
+	},
+/obj/structure/destructible/tribal_torch/wall,
+/turf/closed/mineral/random/low_chance,
+/area/f13/caves)
 "oTY" = (
 /obj/item/mop,
 /obj/structure/mopbucket,
@@ -41481,14 +41495,6 @@
 /obj/structure/junk/small/table,
 /turf/open/floor/wood,
 /area/f13/building)
-"qTA" = (
-/obj/structure/barricade/wooden/strong,
-/obj/structure/fence/wooden{
-	dir = 4
-	},
-/obj/structure/destructible/tribal_torch/wall,
-/turf/closed/mineral/random/low_chance,
-/area/f13/caves)
 "qTG" = (
 /obj/structure/reagent_dispensers/barrel/three,
 /obj/effect/spawner/lootdrop/f13/medical/wasteland/meds/drug{
@@ -52807,12 +52813,6 @@
 /obj/item/reagent_containers/spray/cleaner,
 /turf/open/floor/plasteel/f13/vault_floor/neutral/neutralsolid,
 /area/f13/building)
-"vPT" = (
-/obj/structure/disposalpipe/broken{
-	dir = 1
-	},
-/turf/open/indestructible/ground/outside/water,
-/area/f13/caves)
 "vPY" = (
 /obj/structure/fence/corner{
 	dir = 4;
@@ -59582,7 +59582,7 @@ fyf
 fyf
 gcK
 ktB
-vPT
+czA
 wOS
 hsj
 oNR
@@ -59841,7 +59841,7 @@ gcK
 ktB
 ktB
 hsj
-bdI
+kqC
 hsj
 iyy
 wOS
@@ -61910,12 +61910,12 @@ gcK
 gbL
 gbL
 gcK
-qTA
+oTx
 vvV
 ahI
-hNC
+ooZ
 wsq
-kUh
+hNC
 ggK
 vvV
 gcK
@@ -62171,7 +62171,7 @@ spx
 ggK
 ggK
 ggK
-bMD
+giT
 rCO
 ggK
 iWp
@@ -74549,7 +74549,7 @@ fTy
 kBU
 uQP
 uQP
-hbX
+mHR
 kBU
 unI
 sQX
