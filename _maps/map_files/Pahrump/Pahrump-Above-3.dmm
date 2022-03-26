@@ -4778,6 +4778,7 @@
 	pixel_x = -4;
 	pixel_y = 12
 	},
+/obj/item/warpaint_bowl,
 /turf/open/floor/f13/wood,
 /area/f13/wasteland)
 "YH" = (

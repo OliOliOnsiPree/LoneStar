@@ -384,7 +384,6 @@
 /area/f13/building)
 "ahP" = (
 /obj/item/twohanded/spear/scrapspear,
-/obj/item/warpaint_bowl,
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "aig" = (
@@ -5933,12 +5932,6 @@
 	icon_state = "whitegreenrustychess"
 	},
 /area/f13/village)
-"czA" = (
-/obj/structure/disposalpipe/broken{
-	dir = 1
-	},
-/turf/open/indestructible/ground/outside/water,
-/area/f13/caves)
 "czE" = (
 /obj/effect/decal/cleanable/blood/gibs/down{
 	icon_state = "gibtorso"
@@ -15139,12 +15132,6 @@
 	},
 /turf/open/floor/wood/f13/oak,
 /area/f13/building)
-"giT" = (
-/obj/structure/chair/wood/worn{
-	dir = 8
-	},
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/caves)
 "giU" = (
 /obj/structure/table/wood/settler,
 /obj/effect/spawner/lootdrop/f13/alcoholspawner,
@@ -19328,7 +19315,9 @@
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "hNC" = (
-/obj/item/chair/wood,
+/obj/structure/chair/wood/worn{
+	dir = 8
+	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "hNI" = (
@@ -20482,6 +20471,19 @@
 	},
 /turf/open/floor/plasteel/f13/vault_floor/floor/floorsolid,
 /area/f13/building)
+"ikR" = (
+/obj/structure/barricade/wooden/strong,
+/obj/structure/decoration/rag{
+	icon_state = "skin"
+	},
+/obj/structure/decoration/rag,
+/obj/structure/decoration/rag{
+	icon_state = "skulls"
+	},
+/turf/open/floor/wood/f13/oak{
+	icon_state = "oakfloor3-broken"
+	},
+/area/f13/bar)
 "ilf" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/closet/cardboard,
@@ -25925,10 +25927,6 @@
 	icon_state = "horizontalbottomborderbottom0"
 	},
 /area/f13/wasteland)
-"kqC" = (
-/obj/structure/mirelurkegg,
-/turf/open/indestructible/ground/outside/water,
-/area/f13/caves)
 "kqF" = (
 /obj/structure/chair/booth{
 	icon_state = "booth_west_north"
@@ -27369,6 +27367,10 @@
 	icon_state = "plating"
 	},
 /area/f13/ncr)
+"kXk" = (
+/obj/item/chair/wood,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "kXt" = (
 /obj/structure/lattice/catwalk,
 /turf/open/indestructible/ground/outside/ruins,
@@ -31227,6 +31229,10 @@
 	},
 /turf/open/indestructible/ground/outside/desert,
 /area/f13/wasteland)
+"mDa" = (
+/obj/item/chair/stool,
+/turf/open/indestructible/ground/inside/mountain,
+/area/f13/caves)
 "mEh" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/terminal,
@@ -31407,19 +31413,6 @@
 	smooth = 1
 	},
 /area/f13/building)
-"mHR" = (
-/obj/structure/barricade/wooden/strong,
-/obj/structure/decoration/rag{
-	icon_state = "skin"
-	},
-/obj/structure/decoration/rag,
-/obj/structure/decoration/rag{
-	icon_state = "skulls"
-	},
-/turf/open/floor/wood/f13/oak{
-	icon_state = "oakfloor3-broken"
-	},
-/area/f13/bar)
 "mHS" = (
 /obj/machinery/vending/tool,
 /turf/open/floor/plasteel/barber{
@@ -35289,10 +35282,6 @@
 /obj/structure/campfire/barrel,
 /turf/open/floor/wood/f13/old,
 /area/f13/building)
-"ooZ" = (
-/obj/item/chair/stool,
-/turf/open/indestructible/ground/inside/mountain,
-/area/f13/caves)
 "opl" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -36683,14 +36672,6 @@
 	icon_state = "bluerustysolid"
 	},
 /area/f13/building)
-"oTx" = (
-/obj/structure/barricade/wooden/strong,
-/obj/structure/fence/wooden{
-	dir = 4
-	},
-/obj/structure/destructible/tribal_torch/wall,
-/turf/closed/mineral/random/low_chance,
-/area/f13/caves)
 "oTY" = (
 /obj/item/mop,
 /obj/structure/mopbucket,
@@ -42855,6 +42836,10 @@
 /obj/item/reagent_containers/food/drinks/beer,
 /turf/open/floor/wood/f13,
 /area/f13/building)
+"rCc" = (
+/obj/structure/mirelurkegg,
+/turf/open/indestructible/ground/outside/water,
+/area/f13/caves)
 "rCt" = (
 /obj/effect/spawner/lootdrop/trash,
 /turf/open/indestructible/ground/outside/road,
@@ -45211,6 +45196,14 @@
 /obj/effect/decal/remains/human,
 /turf/open/floor/f13/wood,
 /area/f13/village)
+"sGW" = (
+/obj/structure/barricade/wooden/strong,
+/obj/structure/fence/wooden{
+	dir = 4
+	},
+/obj/structure/destructible/tribal_torch/wall,
+/turf/closed/mineral/random/low_chance,
+/area/f13/caves)
 "sHm" = (
 /obj/structure/window/fulltile/store,
 /obj/structure/barricade/wooden/planks/pregame,
@@ -50351,10 +50344,6 @@
 /area/f13/wasteland)
 "uPa" = (
 /obj/structure/closet/crate/large,
-/obj/item/storage/toolbox/ammo{
-	ammotype = /obj/item/ammo_box/magazine/greasegun/empty;
-	name = "ammunition case (.45 grease gun magazines)"
-	},
 /turf/open/indestructible/ground/inside/mountain,
 /area/f13/caves)
 "uPj" = (
@@ -57587,6 +57576,12 @@
 	icon_state = "housewood4-broken"
 	},
 /area/f13/building)
+"xSJ" = (
+/obj/structure/disposalpipe/broken{
+	dir = 1
+	},
+/turf/open/indestructible/ground/outside/water,
+/area/f13/caves)
 "xTc" = (
 /obj/structure/table,
 /obj/item/kitchen/knife,
@@ -59582,7 +59577,7 @@ fyf
 fyf
 gcK
 ktB
-czA
+xSJ
 wOS
 hsj
 oNR
@@ -59841,7 +59836,7 @@ gcK
 ktB
 ktB
 hsj
-kqC
+rCc
 hsj
 iyy
 wOS
@@ -61910,12 +61905,12 @@ gcK
 gbL
 gbL
 gcK
-oTx
+sGW
 vvV
 ahI
-ooZ
+mDa
 wsq
-hNC
+kXk
 ggK
 vvV
 gcK
@@ -62171,7 +62166,7 @@ spx
 ggK
 ggK
 ggK
-giT
+hNC
 rCO
 ggK
 iWp
@@ -74549,7 +74544,7 @@ fTy
 kBU
 uQP
 uQP
-mHR
+ikR
 kBU
 unI
 sQX
