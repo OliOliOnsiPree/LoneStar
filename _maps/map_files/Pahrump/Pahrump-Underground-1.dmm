@@ -10765,8 +10765,10 @@
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust,
 /area/f13/brotherhood/leisure)
 "ghD" = (
-/obj/machinery/processor,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vault1,
+/obj/machinery/seed_extractor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "neutralrustyfull"
+	},
 /area/f13/brotherhood/leisure)
 "gil" = (
 /obj/structure/wreck/trash/brokenvendor,
@@ -13490,9 +13492,10 @@
 /turf/open/floor/plating/f13/inside,
 /area/f13/brotherhood/dorms)
 "hWR" = (
-/obj/machinery/light/small,
-/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria{
-	icon_state = "tealwhdirty_chess2"
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/floor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "neutralrustyfull"
 	},
 /area/f13/brotherhood/leisure)
 "hWZ" = (
@@ -13508,7 +13511,7 @@
 /turf/open/indestructible/ground/inside/subway,
 /area/f13/tunnel)
 "hXo" = (
-/obj/machinery/seed_extractor,
+/obj/machinery/vending/hydronutrients,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	icon_state = "neutralrustyfull"
 	},
@@ -13536,6 +13539,12 @@
 	icon_state = "floorrustysolid"
 	},
 /area/f13/brotherhood/rnd)
+"hXX" = (
+/obj/machinery/light/small,
+/turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria{
+	icon_state = "tealwhdirty_chess2"
+	},
+/area/f13/brotherhood/leisure)
 "hYt" = (
 /turf/open/floor/f13{
 	icon_state = "darkrusty"
@@ -15201,15 +15210,6 @@
 /obj/structure/simple_door/metal/barred,
 /turf/open/water,
 /area/f13/tunnel)
-"jmz" = (
-/obj/machinery/vending/hydroseeds,
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	icon_state = "neutralrustyfull"
-	},
-/area/f13/brotherhood/leisure)
 "jmN" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/f13{
@@ -21304,7 +21304,7 @@
 	},
 /area/f13/bunker)
 "nGq" = (
-/obj/machinery/vending/hydronutrients,
+/obj/machinery/smartfridge,
 /turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
 	icon_state = "neutralrustyfull"
 	},
@@ -24208,11 +24208,8 @@
 	},
 /area/f13/bunker)
 "pMS" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/floor,
-/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
-	icon_state = "neutralrustyfull"
-	},
+/obj/machinery/processor,
+/turf/open/floor/plasteel/f13/vault_floor/misc/vault1,
 /area/f13/brotherhood/leisure)
 "pNt" = (
 /obj/effect/decal/cleanable/dirt,
@@ -25475,6 +25472,15 @@
 	dir = 1
 	},
 /area/f13/brotherhood/mining)
+"qzU" = (
+/obj/machinery/vending/hydroseeds,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plasteel/f13/vault_floor/misc/vaultrust{
+	icon_state = "neutralrustyfull"
+	},
+/area/f13/brotherhood/leisure)
 "qAj" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt{
@@ -90027,7 +90033,7 @@ dxI
 yhT
 thC
 hpM
-pMS
+hWR
 hpM
 gKP
 wfx
@@ -91047,7 +91053,7 @@ uoI
 hQS
 hJL
 yhT
-ghD
+pMS
 ffC
 enD
 eod
@@ -91056,7 +91062,7 @@ aFG
 gKk
 hpM
 hpM
-pMS
+hWR
 hpM
 gKk
 yhT
@@ -91570,9 +91576,9 @@ yhT
 hro
 gKP
 hYS
-hXo
+ghD
 gKP
-gKP
+nGq
 krV
 nWW
 lDl
@@ -91822,9 +91828,9 @@ cQR
 faK
 faK
 ffC
-hWR
+hXX
 yhT
-jmz
+qzU
 gKP
 gKP
 hpM
@@ -92081,7 +92087,7 @@ faK
 ffC
 ffC
 yhT
-nGq
+hXo
 gKP
 rHf
 iFH
