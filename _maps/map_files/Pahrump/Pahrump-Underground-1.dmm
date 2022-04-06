@@ -7458,6 +7458,7 @@
 	color = "000000"
 	},
 /obj/structure/table,
+/obj/item/trash/f13/electronic/toaster,
 /turf/open/floor/plasteel/f13/vault_floor/misc/cafeteria{
 	icon_state = "tealwhdirty_chess2"
 	},
